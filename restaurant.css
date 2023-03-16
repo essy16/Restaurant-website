@@ -1,0 +1,98 @@
+.homePage {
+    background: linear-gradient(30deg, #CC5500 55%, #FFFFFF 45%);
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
+
+.restaurantsName {
+    font-size: 30px;
+}
+
+.titles {
+    flex-direction: row;
+    margin: auto;
+    display: flex;
+
+}
+
+Ul {
+    display: flex;
+    list-style: none;
+}
+
+ul li {
+    margin: 0px 80px;
+}
+
+.image {
+    justify-content: flex-end;
+    display: flex;
+}
+
+.image img {
+    height: 80vh;
+    margin-top: 5vh;
+    margin-right: 3vh;
+    border-radius: 800px;
+
+
+}
+
+#home {
+    height: 0vh;
+}
+
+.detail {
+    justify-content: flex-end;
+    display: flex;
+}
+
+.details {
+
+    font-size: 70px;
+}
+
+#detail {
+    height: 0vh;
+}
+
+.book {
+    background-color: #4CAF50;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 10vh;
+    margin-top: 25vh;
+}
+
+.welcome {
+    text-align: center;
+}
+
+.description {
+    text-align: justify;
+    font: 2em sans-serif;
+}
+
+.contacts {
+    color: purple;
+}
+
+.getin {
+    color: purple;
+    font-size: 50px;
+}
+
+.contactsLocation img {
+    float: left;
+}
+
+.ourLocation {
+    margin: 4px;
+}
