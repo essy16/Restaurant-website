@@ -132,3 +132,39 @@ ul li {
     font-size: 5em;
     text-align: center;
   }
+ .menus{
+    background-color: #1B1212;
+}
+.dessert{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.breakfast{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.starter{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.starch{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.meat{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.kids{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.floorlayering{
+    background-color:#BAB86C ;
+}
