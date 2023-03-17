@@ -50,7 +50,7 @@ ul li {
 
 .details {
 
-    font-size: 70px;
+    font-size: 2em;
 }
 
 #detail {
@@ -89,6 +89,10 @@ ul li {
     font-size: 50px;
 }
 
+.allIcons {
+    float: left;
+}
+
 .contactsLocation img {
     float: left;
 }
@@ -96,3 +100,35 @@ ul li {
 .ourLocation {
     margin: 4px;
 }
+
+.number {
+    margin-top: 10px;
+}
+
+.number img {
+    float: left;
+    
+
+}
+
+.emailAddress img {
+    float: left
+    
+}
+.squareBackground{ 
+    width:600px; 
+    height:650px; 
+    background-color:#5D3FD3; 
+    border:3px solid black; 
+    float: right;
+    margin-top: 2vh;
+  } 
+  input {
+    width: 90%;
+    margin: 2vh;
+    height: 5vh;
+  }
+  .explore{
+    font-size: 5em;
+    text-align: center;
+  }
