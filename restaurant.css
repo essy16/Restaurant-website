@@ -1,3 +1,8 @@
+Html{ 
+    Font-Size: 62.5%;
+    Scroll-behavior: smooth;
+    Overflow: hidden;
+    }
 .homePage {
     background: linear-gradient(30deg, black 55%, #FFFFFF 45%);
     overflow: hidden;
