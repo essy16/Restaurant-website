@@ -1,5 +1,5 @@
 .homePage {
-    background: linear-gradient(30deg, #CC5500 55%, #FFFFFF 45%);
+    background: linear-gradient(30deg, black 55%, #FFFFFF 45%);
     overflow: hidden;
     height: 100%;
     width: 100%;
@@ -7,6 +7,7 @@
 
 .restaurantsName {
     font-size: 30px;
+    color: white;
 }
 
 .titles {
@@ -31,10 +32,10 @@ ul li {
 }
 
 .image img {
-    height: 80vh;
+    height: 70vh;
     margin-top: 5vh;
     margin-right: 3vh;
-    border-radius: 800px;
+    border-radius: 50%;
 
 
 }
@@ -117,11 +118,11 @@ ul li {
 }
 .squareBackground{ 
     width:600px; 
-    height:650px; 
+    height:400px; 
     background-color:#5D3FD3; 
     border:3px solid black; 
     float: right;
-    margin-top: 2vh;
+    margin-top: 20vh;
   } 
   input {
     width: 90%;
@@ -132,39 +133,376 @@ ul li {
     font-size: 5em;
     text-align: center;
   }
- .menus{
-    background-color: #1B1212;
+
+.floorlayering{
+    background-color:black ;
 }
-.dessert{
+.circle{
     display: flex;
     justify-content: center;
     text-align: center;
 }
-.breakfast{
+.cabaret{
     display: flex;
     justify-content: center;
     text-align: center;
+}
+.vshape{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.boardroom{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.classroom{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.tshape{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.ushape{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.Herringbone{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.hollowsquare{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.banquet{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.gallery{
+    background-color: black;
+}
+.events{
+    background-color: white;
+}
+.wedding{
+    margin-top:10px ;
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    border: 20px solid #969696;
+
+}
+.birthday{
+    margin-top:20px ;
+    width: 100%;
+    display: flex;
+    border: 20px solid #969696;
+
+}
+.corporate{
+    margin-top:20px ;
+    width: 100%;
+    display: flex;
+    border: 20px solid #969696;
+
+}
+.breakfasthtml{
+    background-color: black;
+}
+.croissant{
+    display: flex;
+}
+.croissant img{
+    width : 500px;
+    height: 500px;
+    border-radius: 50%;
+    float: right;
+    
+}
+.croissant text{
+    float: left;
+    font-family: Impact;
+}
+.cheschil{
+    display: flex;
+}
+.acai{
+    display: flex;
+    text-align: left;
+    float: right;
+    margin: 2vh;
+    
+}
+.acai img{
+    width : 300px;
+    height: 300px;
+    border-radius: 50%;
+
+}
+.sourdough{
+    display: flex;
+    margin: 2vh;
+
+}
+.sourdough img{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+
+}
+.teas{
+    display: flex;
+    margin: 2vh;
+
+}
+.teas img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+
+}
+.othermeals{
+    background-color: white;
+    width: 100%;
+}
+ .lemonmuffins{
+    display: flex;
+    margin-left: 60vh;
+  margin-right: auto;
+  /* width: 50%; */
+ }
+ .lemonmuffins img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+
+ }
+ .othermeals{
+    margin: 2vh;
+ }
+ table, th, td {
+    border: 1px solid black;
+margin: auto; 
+margin-bottom: 2vh; }
+.spinach{
+    display: flex;
+}
+.starterhtml{
+    background-color: #FF5F1F;
+}
+.meathtml{
+    background-color: #770737;
+}
+.starchhtml{
+    background-color: yellow;
+}
+.pastatext{
+    display: flex;
+    justify-content: center;
+}
+.veggieshtml{
+    /* background-color: #AAFF00; */
+background-image:url(veggieshtml.jpeg) ;
+}
+.juices {
+display: flex;
+float: left;
+}
+.juices img{
+    float: right;
+    width: 300px;
+    height: 300px;
+    margin-right: 0%;
+    border-radius: 50%           ;
+}
+.beers{
+    display: flex;
+}
+.beers img{
+    height: 500px;
+    width: 500px;
+}
+.bmary{
+    display: flex;
+    margin-top: 2vh;
+}
+
+.margarita{
+    display: flex;
+    float: right;
+    margin-top: 2vh;
+}
+.lime{
+    justify-content: center;
+    display: block;
+    margin: auto;
+    margin-top: 2vh;
+}
+.cocktails{
+    background-color: black	;
+}
+.gin{
+    display: flex;
+    margin-top: 2vh ;
+
+
+}
+.vodka{
+    display: flex;
+    float: right;
+    
+}
+.rum{
+    margin-top: 2vh ;
+    display: flex;
+}
+.bubbles{
+    float: left;
+    display: flex;
+    margin-top: 2vh;
+}
+.usermessage{
+    width: 500px;
+    height: 500px;
+}
+
+.swiper{
+    width: 80%;
+    height: fit-content;
+}
+.swiper-slide{
+    width: 170%;
+
+}
+.buffet{
+    background-color: #222;
+    height: 200vh;
 }
 .starter{
+    float: right;
     display: flex;
-    justify-content: center;
-    text-align: center;
+}
+.starter img{
+    border-radius: 50%;
+}
+.meat{
+    float: left;
+    display: flex;
+}
+.meat img{
+    border-radius: 50%;
+
+
+}
+hr{
+    transform: rotate(90deg);
+    margin-top: 50vh;
+margin: auto;
+
+
+}
+.drinks{
+    display: flex;
+    float: left;
+    margin-top: 2vh;
+}
+.drinks img{
+    border-radius: 50%;
 }
 .starch{
     display: flex;
-    justify-content: center;
-    text-align: center;
+    float: right;
+    margin-top: 2vh;
 }
-.meat{
+.starch img{
+    border-radius: 50%;
+}
+.boufetdetails{
+    display: block;
+    margin-top: 90%;
+
+     
+}
+
+.menus{
+}
+.breakfast{
+    height: 350vh;
+    background-color: black;
+}
+.coffeecrazy {
+        float: left;
+        display: flex;
+}
+.coffeecrazy img{
+    float: left;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-top: 5vh;
+}
+.chais {
+    float: right;
     display: flex;
-    justify-content: center;
-    text-align: center;
+    margin-top: 8vh;
+
 }
+.chais img{
+float: right;
+width: 300px;
+height: 300px;
+border-radius: 50%;
+}
+.beveragesmenu{
+    background-color: black;
+    height: 450vh;
+
+}
+
 .kids{
-    display: flex;
-    justify-content: center;
-    text-align: center;
+    background: url(kids_selection.jpeg) right bottom no-repeat, url(kidsbg.jpeg) left top repeat;
 }
-.floorlayering{
-    background-color:#BAB86C ;
+.kidstable{
+    color: white;
+}
+
+.kidstable, th, td {
+
+    border: 1px solid white;
+margin: auto; 
+margin-bottom: 2vh; }
+.cyclicmenu{
+    background-color: black;
+}
+.aboutPage{
+    background-color: black;
+}
+.gif{
+    float: left;
+    display: flex;
+}
+.gif video{
+    width: 400px;
+    height: 400px;
+}
+.cyclicmenu{
+    background-image: url(cyclicbg.jpeg);
+}
+.chef{
+    display: flex;
+}
+.button{
+    width: 80%;
+    margin: auto;
+    margin-left: 20%;
+    margin-top: 30%;
 }
