@@ -514,3 +514,24 @@ margin-bottom: 2vh; }
     margin-left: 20%;
     margin-top: 30%;
 }
+@media (max-width:500px){
+    
+    .menus{
+        width: 450px;
+    }
+    .homePage{
+        width: 450px;
+    }
+    .aboutPage{
+        width: 450px;
+
+    }
+    .contactspage{
+        width: 450px;
+
+    }
+    .chef img{
+        width: 200px;
+    }
+   
+}
